@@ -1,0 +1,17 @@
+{
+  "name": "easy-files-server",
+  "version": "2.0.0",
+  "description": "EasyFiles — self-hosted file sharing server",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "dev": "node --watch index.js"
+  },
+  "license": "MIT",
+  "type": "commonjs",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^5.1.0",
+    "multer": "^2.0.2"
+  }
+}
